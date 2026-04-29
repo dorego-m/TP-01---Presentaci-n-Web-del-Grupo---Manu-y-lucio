@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\50155748\\Downloads\\TP01\\TP01.csproj": {}
+    "C:\\Users\\50155748\\Downloads\\pepeuno\\TP-01---Presentaci-n-Web-del-Grupo---Manu-y-lucio\\TP01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\50155748\\Downloads\\TP01\\TP01.csproj": {
+    "C:\\Users\\50155748\\Downloads\\pepeuno\\TP-01---Presentaci-n-Web-del-Grupo---Manu-y-lucio\\TP01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\50155748\\Downloads\\TP01\\TP01.csproj",
+        "projectUniqueName": "C:\\Users\\50155748\\Downloads\\pepeuno\\TP-01---Presentaci-n-Web-del-Grupo---Manu-y-lucio\\TP01.csproj",
         "projectName": "TP01",
-        "projectPath": "C:\\Users\\50155748\\Downloads\\TP01\\TP01.csproj",
+        "projectPath": "C:\\Users\\50155748\\Downloads\\pepeuno\\TP-01---Presentaci-n-Web-del-Grupo---Manu-y-lucio\\TP01.csproj",
         "packagesPath": "C:\\Users\\50155748\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\50155748\\Downloads\\TP01\\obj\\",
+        "outputPath": "C:\\Users\\50155748\\Downloads\\pepeuno\\TP-01---Presentaci-n-Web-del-Grupo---Manu-y-lucio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

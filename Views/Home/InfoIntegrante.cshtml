@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Info Integrante";
+    var integrante = (Integrante)ViewBag.Integrante;
+}
+
+<h2>@integrante.Nombre</h2>
+
+<p>DNI: @integrante.DNI</p>
+<p>Fecha de nacimiento: @integrante.FechaNacimiento.ToString("dd/MM/yyyy")</p>
+
+<img src="~/images/@integrante.Foto" alt="Foto de @integrante.Nombre" />
+
+<h4>Familiares</h4>
+<ul>
+    @foreach (string familiar in integrante.Familiares)
+    {
+        <li>@familiar</li>
+    }
+</ul>
+
+<h4>Intereses</h4>
+<ul>
+    @foreach (string interes in integrante.Intereses)
+    {
+        <li>@interes</li>
+    }
+</ul>

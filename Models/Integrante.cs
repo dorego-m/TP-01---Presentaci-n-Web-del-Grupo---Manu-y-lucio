@@ -19,4 +19,14 @@ public class Integrante
         Familiares = familiares;
         Intereses = intereses;
     }
+
+     public string ObtenerNombre() 
+    {
+        return Nombre;
+    }
+
+    public string ObtenerFoto() 
+    {
+        return Foto;
+    }
 }

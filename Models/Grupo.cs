@@ -15,21 +15,21 @@ public class Grupo
     public void CargarDatos()
     {
         Integrante i1 = new Integrante(
-            111,
-            "Juan",
-            new DateTime(2000, 1, 1),
-            "juan.jpg",
+            50155748,
+            "Manu",
+            new DateTime(2010, 2, 26),
+            "Manu.png",
             new List<string> { "Papá: Carlos", "Mamá: Ana" },
-            new List<string> { "Fútbol", "Series" }
+            new List<string> { "Videojuegos", "Series" }
         );
 
         Integrante i2 = new Integrante(
-            222,
-            "Camila",
-            new DateTime(2001, 2, 2),
-            "camila.jpg",
+            49701561,
+            "Lucio",
+            new DateTime(2009, 7, 28),
+            "Lucio.png",
             new List<string> { "Papá: Luis", "Mamá: Marta" },
-            new List<string> { "Leer", "Peliculas" }
+            new List<string> { "Deportes", "Peliculas" }
         );
 
         Integrantes.Add(i1.DNI, i1);

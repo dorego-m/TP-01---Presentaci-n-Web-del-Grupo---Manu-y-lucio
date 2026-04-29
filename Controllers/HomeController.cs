@@ -22,14 +22,14 @@ public class HomeController : Controller
         return View();
     }
 
-    IActionResult SelectIntegrante(int dni) 
+    public IActionResult infoIntegrante(int dni) 
     {
         Grupo grupo = new Grupo();
         Integrante integrante = grupo.GetIntegrante(dni);
         if(integrante != null)
         {
             ViewBag.Integrante = integrante;
-            Viewbag.Dni = dni;
+            ViewBag.Dni = dni;
             return View("infoIntegrante");
         }
         else
